@@ -18,43 +18,47 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header-container">
+    <!-- HEADER -->
+    <header class="header">
       <div class="container">
-        <nav>
-          <!-- LOGO -->
-          <a href="./index.html" class="logo-icon link"
-            >Web<span class="icon-logo">Studio</span></a
-          >
-          <!-- NAVIGATION LIST -->
-          <div>
+        <div class="header-container">
+          <nav class="nav-conteainer">
+            <!-- LOGO -->
+
+            <a href="./index.html" class="logo-icon link"
+              >Web<span class="icon-logo">Studio</span></a
+            >
+
+            <!-- NAVIGATION LIST -->
+
             <ul class="list nav-conteainer">
-              <li class="nav-list-item">
+              <li class="nav-list-item container-item">
                 <a class="link link-itms" href="./index.html">Studio</a>
               </li>
-              <li class="nav-list-item">
+              <li class="nav-list-item container-item">
                 <a class="link link-itms" href="./portfolio.html">Portfolio</a>
               </li>
-              <li class="nav-list-item">
+              <li class="nav-list-item container-item">
                 <a class="link link-itms" href="">Contacts</a>
               </li>
             </ul>
-          </div>
-        </nav>
-        <!-- ADDRESS CONTACTS -->
-        <address class="address-section">
-          <ul class="list address-container">
-            <li>
-              <a class="contacts link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a class="contacts link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
+          </nav>
+          <!-- ADDRESS CONTACTS -->
+          <address class="address-section">
+            <ul class="list address-container">
+              <li>
+                <a class="contacts link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="contacts link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
     <main>
@@ -63,15 +67,18 @@
       <section class="hero-section">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="order-button">Order Service</button>
+          <button type="button" class="order-button order-container">
+            Order Service
+          </button>
         </div>
       </section>
 
       <!-- SECTION 2 ABOUT US -->
+
       <section class="section-about-us">
         <div class="container">
-          <h2 class="about-us-title" hidden>About us</h2>
-          <ul class="list">
+          <h2 class="about-us-title">About us</h2>
+          <ul class="list container-about">
             <li>
               <h3 class="about-title">Strategy</h3>
               <p class="about-subtitle">
@@ -107,7 +114,7 @@
       <section>
         <div class="container">
           <h2 class="works-title">What are we doing</h2>
-          <ul class="list">
+          <ul class="list work-container">
             <li class="work-list">
               <img
                 src="./images/rectangle71.jpg"
@@ -136,7 +143,7 @@
       <section class="team-wrap">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
-          <ul class="list">
+          <ul class="list team-container">
             <li class="team-itms">
               <img
                 src="./images/our_team_foto/mark_guerrero.jpg"
@@ -179,13 +186,15 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a href="./index.html" class="logo-icon link"
-          >Web<span class="icon-logo-footer">Studio</span></a
-        >
-        <p>
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
+        <div class="footer-container">
+          <a href="./index.html" class="logo-icon link"
+            >Web<span class="icon-logo-footer">Studio</span></a
+          >
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
       </div>
     </footer>
   </body>
