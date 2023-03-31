@@ -229,12 +229,12 @@ nav {
   margin-bottom: 72px;
 }
 .work-list {
-  display: block;
+  /* display: block;
   justify-content: center;
   width: 360px;
-  height: 300px;
-  margin-bottom: 120px;
-  margin-right: 40px;
+  height: 300px; */
+  padding-bottom: 120px;
+  /* margin-right: 40px; */
 }
 .work-list:not(:last-child) {
   margin-right: 24px;
@@ -243,7 +243,6 @@ nav {
 .team-container {
   display: flex;
   /* gap: 24px; */
-  padding-bottom: 120px;
 }
 .team-wrap {
   background-color: #f4f4fd;
@@ -267,7 +266,10 @@ nav {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  margin-right: 40px;
+  /* margin-right: 40px; */
+}
+.team-itms:not(:last-child) {
+  margin-right: 24px;
 }
 .team-text-wrap {
   padding: 32px 16px;
@@ -280,7 +282,6 @@ nav {
   text-align: center;
   color: #2e2f42;
   letter-spacing: 0.02em;
-  /* padding-top: 32px; */
 }
 .team-text {
   font-weight: 400;
@@ -290,7 +291,6 @@ nav {
   letter-spacing: 0.02em;
   color: #434455;
   margin-top: 8px;
-  /* padding-bottom: 32px; */
 }
 /* FOOTER */
 .footer-container {
@@ -312,6 +312,7 @@ nav {
 /* Portfolio main page */
 .section-portfolio {
   padding-top: 96px;
+  padding-bottom: 120px;
 }
 .visually-hidden {
   position: absolute;
@@ -361,37 +362,15 @@ nav {
   flex-wrap: wrap;
   gap: 48px 24px;
 }
-.first-img-container {
-  display: flex;
-  gap: 24px;
-  justify-content: space-around;
-  padding-top: 72px;
-}
-.first-img-container:not(:last-child) {
-  padding-right: 24px;
-}
-.second-img-container {
-  display: flex;
-  gap: 24px;
-  justify-content: space-around;
-  margin-top: 48px;
-}
-.second-img-container:not(:last-child) {
-  padding-right: 24px;
-}
-.third-img-container {
-  display: flex;
-  gap: 24px;
-  justify-content: space-around;
-  margin-top: 48px;
-  margin-bottom: 120px;
-  padding-right: 24px;
+.work-text-wrap {
+  padding: 32px 0;
+  border: 1px solid #e7e9fc;
+  border-top: 0;
 }
 
 .img-work {
-  border: 1px solid #e7e9fc;
 }
-/* border: 1px solid #E7E9FC; */
+
 .work-lead {
   font-weight: 500;
   font-size: 20px;
